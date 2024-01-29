@@ -16,7 +16,7 @@ import java.util.Objects;
 public class WeatherServiceImpl implements WeatherService {
 
     private final static String apiUrl = "https://api.openweathermap.org/data/2.5/weather";
-    private final static String apiKey = "af9d8709ee09996da7909c6b3de5ae5c";
+    private final static String apiKey = "API_KEY";
 
     private final RestTemplate restTemplate;
 
